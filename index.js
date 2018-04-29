@@ -34,7 +34,7 @@ module.exports = {
       process (block) {
         return this.book.renderBlock('markdown', block.body).then(function (body) {
           // Create container
-          const container = element('div', { class: 'api-container' })
+          const container = element('div', { class: 'api-container expanded' })
 
           // Create header
           const header = element('div', { class: 'api-header' }, container)

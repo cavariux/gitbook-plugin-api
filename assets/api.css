@@ -3,14 +3,8 @@
 }
 
 .api-container {
-  margin: 0px 0px;
   box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
   transition: margin 300ms, box-shadow 300ms;
-}
-
-.api-container.expanded {
-  margin: 0px -16px;
-  box-shadow: 0px 6px 16px rgba(0,0,0,0.25);
 }
 
 .api-container .api-header {
@@ -77,11 +71,6 @@
   margin-left: 10px;
 }
 
-.api-container .api-content {
-  height: 0px;
-  overflow: hidden;  
-}
-
 .api-container .api-content div {
   padding: 20px 20px 10px 20px;
 }
@@ -94,6 +83,11 @@
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.api-container .api-content {
+  height: 0px;
+  overflow: hidden;  
 }
 
 .api-container .api-content div pre {
